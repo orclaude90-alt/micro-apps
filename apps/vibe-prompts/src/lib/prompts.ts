@@ -56,7 +56,7 @@ export const PROMPTS: Prompt[] = [
     description: 'אתר פורטפוליו אישי עם פרויקטים, כישורים וטופס יצירת קשר',
     category: 'starter',
     tags: ['portfolio', 'personal', 'developer'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה אתר פורטפוליו מפתח עם Next.js 15 + Tailwind CSS.
 
 סקשנים:
@@ -79,7 +79,7 @@ export const PROMPTS: Prompt[] = [
     description: 'דף מכירה למוצר פיזי עם gallery, reviews ו-checkout פשוט',
     category: 'starter',
     tags: ['ecommerce', 'product', 'sales'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה דף נחיתה למוצר פיזי עם React + Tailwind CSS.
 
 כולל:
@@ -101,7 +101,7 @@ State management: useState בלבד, ללא Redux`,
     description: 'בלוג מלא עם MDX, קטגוריות, חיפוש ו-RSS feed',
     category: 'starter',
     tags: ['blog', 'mdx', 'content'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה בלוג עם Next.js 15 App Router + MDX + Tailwind.
 
 מבנה קבצים:
@@ -127,7 +127,7 @@ State management: useState בלבד, ללא Redux`,
     description: 'מחשבון מדעי עם היסטוריית חישובים, מצבי תצוגה ו-keyboard support',
     category: 'tools',
     tags: ['calculator', 'math', 'utility'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה מחשבון מדעי עם React + Tailwind CSS.
 
 פיצ'רים:
@@ -149,7 +149,7 @@ State: useReducer לניהול מצב המחשבון`,
     description: 'ממיר יחידות ל-12 קטגוריות עם חיפוש מהיר',
     category: 'tools',
     tags: ['converter', 'units', 'utility'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה ממיר יחידות עם React + Tailwind.
 
 קטגוריות: אורך, משקל, טמפרטורה, נפח, שטח, מהירות, זמן, נתונים (MB/GB/TB), מטבע (שערים hardcoded), אנרגיה, לחץ, זווית.
@@ -171,7 +171,7 @@ UI:
     description: 'מחולל סיסמאות עם מד חוזק, הגדרות וניהול סיסמאות',
     category: 'tools',
     tags: ['security', 'password', 'generator'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה מחולל סיסמאות עם React + Tailwind.
 
 UI:
@@ -217,7 +217,7 @@ UI:
     description: 'מחולל QR עם עיצוב מותאם, לוגו באמצע ו-download',
     category: 'tools',
     tags: ['qr', 'generator', 'utility'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה מחולל QR קוד עם React + Tailwind + qrcode.react.
 
 פיצ'רים:
@@ -295,7 +295,7 @@ Data: 200 שורות sample data (users עם name/email/role/status/date)`,
     description: 'ניהול לקוחות עם pipeline, tasks ו-notes',
     category: 'business',
     tags: ['crm', 'clients', 'pipeline'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה מיני CRM עם React + Tailwind + localStorage.
 
 מסכים (React Router):
@@ -341,7 +341,7 @@ Storage: JSON file / localStorage (ללא DB)`,
     description: 'יצירת חשבוניות מקצועיות עם לוגו, פריטים ו-PDF download',
     category: 'business',
     tags: ['invoice', 'pdf', 'finance'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה מחולל חשבוניות עם React + Tailwind + @react-pdf/renderer.
 
 UI:
@@ -388,7 +388,7 @@ Templates: 3 עיצובים לבחירה
     description: 'כלי לאיסוף, מיון ותעדוף פידבק מלקוחות',
     category: 'business',
     tags: ['feedback', 'product', 'roadmap'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה לוח פידבק ציבורי (כמו Canny) עם Next.js + Tailwind + localStorage.
 
 מסכים:
@@ -410,7 +410,7 @@ Templates: 3 עיצובים לבחירה
     description: 'ניהול standup meetings עם timer, היסטוריה ו-export',
     category: 'business',
     tags: ['team', 'meeting', 'productivity'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה כלי standup יומי עם React + Tailwind.
 
 פיצ'רים:
@@ -506,7 +506,7 @@ Blocks זמינים:
     description: 'בסיס ידע עם קטגוריות, חיפוש מלא ו-markdown rendering',
     category: 'content',
     tags: ['docs', 'knowledge', 'search'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה knowledge base / documentation site עם Next.js + Tailwind + MDX.
 
 מבנה:
@@ -533,7 +533,7 @@ Sidebar: ניווט היררכי עם collapse/expand`,
     description: 'FAQ עם חיפוש, קטגוריות ו-AI שמייצר תשובות',
     category: 'content',
     tags: ['faq', 'support', 'ai'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה דף FAQ אינטראקטיבי עם React + Tailwind.
 
 פיצ'רים:
@@ -608,7 +608,7 @@ Mobile UX:
     description: 'מעקב הרגלים יומי עם streaks, stats ו-motivational design',
     category: 'mobile',
     tags: ['habits', 'streak', 'health'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה habit tracker mobile-first עם React + Tailwind.
 
 פיצ'רים:
@@ -653,7 +653,7 @@ Storage: IndexedDB (לתמונות) + localStorage`,
     description: 'טיימר HIIT/Tabata עם שמע, רטט ו-custom workouts',
     category: 'mobile',
     tags: ['fitness', 'timer', 'hiit'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה טיימר אימון HIIT עם React + Tailwind.
 
 מצבים:
@@ -680,7 +680,7 @@ Workout presets: 5 אימונים מוכנים`,
     description: 'חלוקת הוצאות בין חבר"ה עם סכום לתשלום לכל אחד',
     category: 'mobile',
     tags: ['travel', 'split', 'finance'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה מפצל הוצאות לטיולים עם React + Tailwind.
 
 Flow:
@@ -729,7 +729,7 @@ Storage: localStorage עם migration support`,
     description: 'לוח בקרה admin עם stats, טבלאות ו-user management',
     category: 'internal',
     tags: ['admin', 'dashboard', 'analytics'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה admin dashboard עם Next.js + Tailwind + Recharts.
 
 Layout: Sidebar ניווט + Header + Main content
@@ -802,7 +802,7 @@ UX: Timer רץ ב-sessionStorage, הודעה אם שכחת לכבות`,
     description: 'מקצר URLs עם analytics, QR ו-custom slugs',
     category: 'internal',
     tags: ['url', 'shortener', 'analytics'],
-    isPro: false,
+    isPro: true,
     prompt: `בנה URL shortener עם Next.js + Tailwind.
 
 Pages:

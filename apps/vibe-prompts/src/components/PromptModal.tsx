@@ -63,7 +63,7 @@ export function PromptModal({ prompt, onClose }: Props) {
               <Lock className="w-12 h-12 text-brand-purple/40 mx-auto" />
               <p className="text-gray-400">הפרומפט הזה זמין בגרסת Pro בלבד</p>
               <button className="px-6 py-3 bg-brand-purple text-white rounded-xl font-medium hover:bg-purple-600 transition-colors">
-                שדרג ל-Pro — $19 פעם אחת
+                שדרג ל-Pro — $9 פעם אחת
               </button>
             </div>
           ) : (
