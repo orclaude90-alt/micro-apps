@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: { canonical: 'https://shipuz-calc.vercel.app' },
+  icons: { icon: '/icon.png', apple: '/icon.png' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
